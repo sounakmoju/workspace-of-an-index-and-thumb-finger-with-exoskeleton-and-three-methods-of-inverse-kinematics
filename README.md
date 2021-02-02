@@ -1,1 +1,5 @@
-# workspace-of-an-index-and-thumb-finger-with-exoskeleton-and-three-methods-of-inverse-kinematics
+# workspace-of-an-index-and-thumb-finger-with-exoskeleton-and-three-methods-of-inverse-kinematics for parameters this paper is used 
+https://www.researchgate.net/profile/Jiting_Li/publication/224222970_Kinematics_and_workspace_analysis_of_an_exoskeleton_for_thumb_and_index_finger_rehabilitation/links/0fcfd511df3ab9fdd3000000/Kinematics-and-workspace-analysis-of-an-exoskeleton-for-thumb-and-index-finger-rehabilitation.pdf?_sg%5B0%5D=SdyKNu5eSMmUIOGJEpGdTW2_ISZAxiedOTAH8CL4geFaG_6xA7h4x4nvuTgzKg1n-t8GHFOvYeodHJbnUfGEqw.YS8dGKw79b5GhUFs1zBSMWYLCkMbGwsuds7RTKRR2H2teUUEAxvU-0WhPRjNm6pXb5omaka-bDMDaSPVPMESGQ&_sg%5B1%5D=2SxIjv6n4dWCEZ32qL5nP-DQxYtQetKqvEx_zCd4AzbWenEpIrv9rhv131O5gv9plwP53q96EfV1kRTKKaMEvsCgrVs9Zbe05Zs9LRiio72i.YS8dGKw79b5GhUFs1zBSMWYLCkMbGwsuds7RTKRR2H2teUUEAxvU-0WhPRjNm6pXb5omaka-bDMDaSPVPMESGQ&_iepl=
+1.first inverse kinematics uses pseudo inverse of jacobian when an increment method of diagonal matrix of result SVD is used escape singularity.
+2.second method uses the damping method of jacobain matrix
+3.third method uses clustering of workspace to generate initial guess for damping method which is computionally effcient
